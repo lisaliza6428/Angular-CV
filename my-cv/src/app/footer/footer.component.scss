@@ -1,0 +1,35 @@
+footer {
+  background-color: #3b3838;
+  color: azure;
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 35px;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  margin-top: 40px;
+
+}
+a {
+  text-decoration: none;
+}
+.contacts__link {
+  display: flex;
+  align-items: center;
+  column-gap: 3px;
+  color: aliceblue;
+  font-size: 14px;
+  margin: 4px 0;
+  &:hover {
+    color: #0386ea;
+    .contacts__img {
+
+      filter: brightness(0) saturate(100%) invert(43%) sepia(74%) saturate(4465%) hue-rotate(187deg) brightness(98%) contrast(98%);
+    }
+
+  }
+}
+.contacts__img {
+  width: 20px;
+}
