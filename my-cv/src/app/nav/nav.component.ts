@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { Location } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
+import { LocationStrategy } from '@angular/common';
 
 
 @Component({
@@ -16,11 +16,12 @@ export class NavComponent implements OnInit {
   activeLink: string = '';
   links: string[] = [];
   linksTitle: string[] = [];
+  public href: string = "";
 
   constructor(
-    router: Router,
-    location: Location,
-    public translate: TranslateService
+    public router: Router,
+    public translate: TranslateService,
+    public locationStr: LocationStrategy,
   ) {
     this.translate.stream('nav').subscribe((data: any) => {
       this.links = Object.keys(data);
@@ -29,7 +30,7 @@ export class NavComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    const path = location.pathname.slice(1);
+    const path = this.locationStr.path().slice(1);
     this.activeLink = path;
   }
 

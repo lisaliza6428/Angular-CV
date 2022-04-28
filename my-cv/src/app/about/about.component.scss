@@ -12,8 +12,9 @@ a {
 
 
 .download-block{
-text-align: right;
-margin: 20px auto;
+text-align: center;
+margin: 20px 0px 20px auto;
+width: 260px;
 .download-text {
   font-weight: 600;
 }
@@ -22,7 +23,7 @@ margin: 20px auto;
   display: inline-block;
   margin:  5px 0 0 5px;
   padding: 10px;
-  width: 95px;
+  width: 125px;
   background-color: #0386ea;
   color: white;
   border-radius: 5px;
