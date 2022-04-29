@@ -31,7 +31,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Visit: https://elizaveta-ivanushenko.netlify.app/
 
-<img src="https://user-images.githubusercontent.com/87124701/165901532-843d9cda-ec61-4c1e-a0ee-aa66a7a8bd0b.JPG" width=700 ></img>
+<img src="https://user-images.githubusercontent.com/87124701/165917115-03acfebc-a832-4f09-b100-a3c03eedf8c3.png" width=700 ></img>
+
 
 My first completed application created with Angular now.
 
