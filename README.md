@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MyCv
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
@@ -25,3 +26,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# Angular-CV
+
+Visit: https://elizaveta-ivanushenko.netlify.app/
+
+<img src="https://user-images.githubusercontent.com/87124701/165901532-843d9cda-ec61-4c1e-a0ee-aa66a7a8bd0b.JPG" width=700 ></img>
+
+My first completed application created with Angular now.
+
+The application implements routing and localization in two languages using ngx-translate.
+
+The app is adaptive for screens from 1920px to 320px.
+>>>>>>> 365cb90ef9a62e0f2f8dbed5765ec133be5e5ad1

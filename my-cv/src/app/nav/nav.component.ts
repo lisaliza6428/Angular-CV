@@ -16,7 +16,6 @@ export class NavComponent implements OnInit {
   activeLink: string = '';
   links: string[] = [];
   linksTitle: string[] = [];
-  public href: string = "";
 
   constructor(
     public router: Router,

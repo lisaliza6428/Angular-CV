@@ -12,7 +12,12 @@
   "about": {
     "pageTitle": "About",
     "content": {
-      "text": ""
+      "text1": "I had a non-IT job, where I couldn't do without specialized software and technological solutions, which were always easy for me to use (1C: Enterprise, Bitrix24, e-Declarant, Wialon).",
+      "text2": "One day I remembered some knowledge from my university computer science course and tried to solve one of my everyday work problems using programming. The process of working on my own small program once again convinced me of the idea - my current profession is not something I actually want to do in the coming years.",
+      "text3": "This is why I finished my more than 3 year journey in transport logistics and joined Rolling Scopes School's frontend course, dedicating all my time to learning.",
+      "text4":"Here I found an amazing community of motivated and inspired people as I am. Together we coped with a wide variety of tasks, met deadlines every week, learned what a team development is and how Git is necessary and helpful in it. Also here I got hooked on Codewars.com, where, by the way, I have 4 kyu ;)",
+      "text5":"And now It's time for the new challenges - I dream about my first job. I want to be a part of real project and team, upgrade my skills and grow into more competent developer.",
+      "text6":"One more fact about me - I can't live without Nutella!"
     },
     "download": {
       "title": "Download my CV (PDF)",
@@ -91,8 +96,8 @@
     "cv": {
       "title": "This CV-page :)",
       "stack": "Stack: Angular",
-      "descr1": "My first completed application created with Angular now",
-      "descr2": "The application implements routing and localization in two languages using ngx-translate",
+      "descr1": "My first completed application created with Angular now.",
+      "descr2": "The application implements routing and localization in two languages using ngx-translate.",
       "descr3": "The app is adaptive for screens from 1920px to 320px."
     },
     "buttonDeploy": "Deploy",
