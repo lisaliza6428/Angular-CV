@@ -30,7 +30,11 @@ export class NavComponent implements OnInit {
 
   ngOnInit(): void {
     const path = this.locationStr.path().slice(1);
-    this.activeLink = path;
+    if (path === '') {
+      this.activeLink = 'about';
+    } else {
+      this.activeLink = path;
+    }
   }
 
   onSelectItem(item: string): void {

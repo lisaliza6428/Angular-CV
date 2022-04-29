@@ -1,6 +1,6 @@
 <div class="navig">
   <div class="container">
-    <nav class="nav">
+    <nav class="nav unselectable">
       <ul class="nav__list">
         <li *ngFor="let link of links; index as i" class="nav__item"><a (click)="onSelectItem(link)" [class.active]="link == activeLink" class="nav__link" [routerLink]="link"> {{ linksTitle[i] }}</a></li>
       </ul>
