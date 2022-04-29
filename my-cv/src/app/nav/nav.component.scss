@@ -31,6 +31,8 @@ a {
 }
 
 .nav__link {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  user-select:  none;
   display: inline-block;
   margin-right: 25px;
   transition: 0.5s ease;
@@ -55,14 +57,4 @@ a {
     font-size: 16px;
     margin: 0 8px;
   }
-}
-
-.unselectable {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Chrome/Safari/Opera */
-  -khtml-user-select: none;    /* Konqueror */
-  -moz-user-select: none;      /* Firefox */
-  -ms-user-select: none;       /* Internet Explorer/Edge */
-  user-select: none;           /* Non-prefixed version, currently
-                                  not supported by any browser */
 }

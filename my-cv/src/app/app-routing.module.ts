@@ -26,10 +26,11 @@ const routes: Routes = [
     pathMatch: 'full',
     component: ProjectsComponent,
   },
-   { path: '**',
-  pathMatch: 'full',
-  component: ErrorPageComponent 
-  }, 
+  {
+    path: '**',
+    pathMatch: 'full',
+    component: ErrorPageComponent
+  },
 ];
 
 @NgModule({

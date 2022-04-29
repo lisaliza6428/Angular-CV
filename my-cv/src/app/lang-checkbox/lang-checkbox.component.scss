@@ -5,6 +5,7 @@
   position: relative;
   width: 72px;
   margin: 0 0 0 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
   .label-off,
   .label-on {
@@ -28,6 +29,9 @@
 }
 
 .lang-control {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  outline: none;
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -95,8 +99,4 @@
       color: #fefefe;
     }
   }
-}
-
-.hi{
-  color: red
 }
