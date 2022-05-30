@@ -20,7 +20,7 @@
       "text6":"One more fact about me - I can't live without Nutella!"
     },
     "download": {
-      "title": "Download my CV (PDF)",
+      "title": "Download CV (PDF)",
       "en": "in English",
       "ru": "in Russian"
     }
@@ -102,6 +102,9 @@
     },
     "buttonDeploy": "Deploy",
     "buttonCode": "Code"
+  },
+  "errorPage": {
+    "text": "Something went wrong!",
+    "link": "Go to the main page"
   }
-
 }

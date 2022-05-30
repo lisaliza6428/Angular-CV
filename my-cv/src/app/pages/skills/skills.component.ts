@@ -1,26 +1,32 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+
+interface skillsModel {
+  title: string,
+  list: {
+    [key: string]: string,
+  }[],
+};
 
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss']
 })
-export class SkillsComponent implements OnInit {
 
-  json: any;
+export class SkillsComponent {
+
+  json!: skillsModel[];
   title: string = '';
 
   objectValues = Object.values;
 
-  constructor(public translate: TranslateService) {
+  constructor(
+    public translate: TranslateService,
+  ) {
     this.translate.stream('skills').subscribe(data => {
       this.json = Object.values(data.skills);
       this.title = data.pageTitle;
     });
   }
-
-  ngOnInit(): void {
-  }
-
 }
