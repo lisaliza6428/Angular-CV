@@ -2,7 +2,11 @@
   <div class="container">
     <nav class="nav">
       <ul class="nav__list">
-        <li *ngFor="let link of links; index as i" class="nav__item"><a (click)="onSelectItem(link)" [class.active]="link == activeLink" class="nav__link" [routerLink]="link"> {{ linksTitle[i] }}</a></li>
+        <li *ngFor="let link of links; index as i" class="nav__item">
+          <a (click)="onSelectItem(link)" [class.active]="link === activeLink" class="nav__link" [routerLink]="link">
+            {{ linksTitle[i] }}</a
+          >
+        </li>
       </ul>
       <div class="lang-control">
         <app-lang-checkbox></app-lang-checkbox>
@@ -10,4 +14,3 @@
     </nav>
   </div>
 </div>
-

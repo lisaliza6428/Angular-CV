@@ -4,16 +4,17 @@ import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-lang-checkbox',
   templateUrl: './lang-checkbox.component.html',
-  styleUrls: ['./lang-checkbox.component.scss']
+  styleUrls: ['./lang-checkbox.component.scss'],
 })
 export class LangCheckboxComponent {
+  constructor(public translate: TranslateService) {}
 
-  constructor(
-    public translate: TranslateService,
-  ) { }
-
-  checkLang(e: Event){
+  checkLang(e: Event) {
     const isChecked = (<HTMLInputElement>e.target).checked;
-    isChecked ? this.translate.use('en') : this.translate.use('ru');
+    if (isChecked) {
+      this.translate.use('en');
+    } else {
+      this.translate.use('ru');
+    }
   }
 }

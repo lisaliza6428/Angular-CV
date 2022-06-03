@@ -29,12 +29,12 @@ const routes: Routes = [
   {
     path: '**',
     pathMatch: 'full',
-    component: ErrorPageComponent
+    component: ErrorPageComponent,
   },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

@@ -4,12 +4,8 @@ import { TranslateLoader } from '@ngx-translate/core';
 @Component({
   selector: 'app-error-page',
   templateUrl: './error-page.component.html',
-  styleUrls: ['./error-page.component.scss']
+  styleUrls: ['./error-page.component.scss'],
 })
 export class ErrorPageComponent {
-
-  constructor(
-    public translate: TranslateLoader,
-  ) { }
-
+  constructor(public translate: TranslateLoader) {}
 }

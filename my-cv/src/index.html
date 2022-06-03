@@ -1,33 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Elizaveta Ivanushenko</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Elizaveta Ivanushenko</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-
-<body>
-  <div class="preloader">
-    <div class="preloader__items">
-      <div class="preloader__item"></div>
-      <div class="preloader__item"></div>
+  <body>
+    <div class="preloader">
+      <div class="preloader__items">
+        <div class="preloader__item"></div>
+        <div class="preloader__item"></div>
+      </div>
     </div>
-  </div>
 
-  <app-root>
-  </app-root>
-  <script>
-    window.onload = () => {
-      document.body.classList.add('loaded-hiding');
-      window.setTimeout(() => {
-        document.body.classList.add('loaded');
-        document.body.classList.remove('loaded-hiding');
-      }, 500);
-    };
-  </script>
-</body>
-
+    <app-root> </app-root>
+    <script>
+      window.onload = () => {
+        document.body.classList.add('loaded-hiding');
+        window.setTimeout(() => {
+          document.body.classList.add('loaded');
+          document.body.classList.remove('loaded-hiding');
+        }, 500);
+      };
+    </script>
+  </body>
 </html>

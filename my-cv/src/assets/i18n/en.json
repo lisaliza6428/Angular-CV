@@ -12,10 +12,10 @@
   "about": {
     "pageTitle": "About",
     "content": {
-      "text1": "I had a non-IT job, where I couldn't do without specialized software and technological solutions, which were always easy for me to use (1C: Enterprise, Bitrix24, e-Declarant, Wialon).",
+      "text1": "I had a non-IT job, where I couldn't do without specialized software and technological solutions, which were always easy for me to use (1C: Enterprise, Bitrix24, e-Declarant).",
       "text2": "One day I remembered some knowledge from my university computer science course and tried to solve one of my everyday work problems using programming. The process of working on my own small program once again convinced me of the idea - my current profession is not something I actually want to do in the coming years.",
       "text3": "This is why I finished my more than 3 year journey in transport logistics and joined Rolling Scopes School's frontend course, dedicating all my time to learning.",
-      "text4":"Here I found an amazing community of motivated and inspired people as I am. Together we coped with a wide variety of tasks, met deadlines every week, learned what a team development is and how Git is necessary and helpful in it. Also here I got hooked on Codewars.com, where, by the way, I have 4 kyu ;)",
+      "text4":"There I found an amazing community of motivated and inspired people as I am. Together we coped with a wide variety of tasks, met deadlines every week, learned what a team development is and how Git is necessary and helpful in it. Also there I fell in love with Codewars.com, where, by the way, I have 4 kyu ;)",
       "text5":"And now It's time for the new challenges - I dream about my first job. I want to be a part of real project and team, upgrade my skills and grow into more competent developer.",
       "text6":"One more fact about me - I can't live without Nutella!"
     },
@@ -35,7 +35,7 @@
           "item2": "HTML",
           "item3": "CSS/SASS",
           "item4": "TypeScript",
-          "item5": "Basics of Angular"
+          "item5": "Angular"
         }
       },
       "concepts":{
@@ -77,27 +77,28 @@
     "pageTitle": "Projects",
     "museum": {
       "title": "Louvre Museum",
-      "stack": "Stack: HTML, SASS, Javascript, Webpack",
+      "stack": "Stack: HTML, SASS, Javascript",
       "descr1": {
         "part1": "This is an alternative to how a site of",
         "part2": "Louvre Museum",
         "part3": "in Paris might look like."
       },
-      "descr2": "In this project you can see: a slider (in the Welcome section), a slider before/ after (in the Explore section), a custom video player, an art gallery with animation, a ticket cost calculator, a ticket purchase form with validation of input fields (available by pressing the \"Buy Now\" button in the Tickets section), an section with the parallax-effect, interactive map (implemented using Mapbox.com)",
+      "descr2": "In this project you can see: a slider (in the Welcome section), a slider before/ after (in the Explore section), a custom video player, an art gallery with animation, a ticket cost calculator, a ticket purchase form with validation of input fields (available by pressing the \"Buy Now\" button in the Tickets section), section with the parallax-effect, interactive map (implemented using Mapbox.com)",
       "descr3": "The site is adaptive for screens from 1920px to 320px."
     },
     "artquiz": {
       "title": "ArtQuiz",
-      "stack": "Stack: HTML, SASS, Javascript, Webpack",
-      "descr1": "This SPA is a game with two modes of play: guess an artist or guess a painting. After the end of the game round the results page becomes available to you. The game progress is saved in the LocalStorage of the browser.",
+      "stack": "Stack: Angular, TypeScript",
+      "descr1": "ArtQuiz is a game with two modes of play: guess an artist or guess a painting. After the end of the game round the results page becomes available to you. The game progress is saved in the LocalStorage of the browser.",
       "descr2": "There is also a settings page where you can turn on/off  the time game, change the volume of sounds or clear your game progress.",
-      "descr3": "The app is adaptive for screens from 1920px to 320px."
+      "descr3": "Gallery page is created using ngx-pagination. Here you can explore masterpieces sorting them in the way you need.",
+      "descr4": "The app is adaptive for screens from 1920px to 320px."
     },
     "cv": {
       "title": "This CV-page :)",
       "stack": "Stack: Angular",
-      "descr1": "My first completed application created with Angular now.",
-      "descr2": "The application implements routing and localization in two languages using ngx-translate.",
+      "descr1": "This is my first application created with Angular.",
+      "descr2": "Here I implemented routing and localization in two languages using ngx-translate.",
       "descr3": "The app is adaptive for screens from 1920px to 320px."
     },
     "buttonDeploy": "Deploy",
