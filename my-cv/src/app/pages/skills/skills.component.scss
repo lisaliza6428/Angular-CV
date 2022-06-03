@@ -1,7 +1,12 @@
-.title {
-  margin: 20px 0;
+:host {
+  display: block;
 }
-
+.title {
+  margin: 0 0 20px 0;
+}
+.section {
+  position: relative;
+}
 .lists {
   display: flex;
   justify-content: center;
@@ -49,6 +54,7 @@
     font-weight: 500;
     transform: scale(1);
     cursor: pointer;
+    transition: 0.5s;
     &:hover {
       transform: scale(1.1);
     }

@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, HostBinding } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-
+import { routingAnimation } from '../../routing-animation';
 interface SkillsModel {
   title: string;
   list: {
@@ -12,8 +12,11 @@ interface SkillsModel {
   selector: 'app-skills',
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss'],
+  animations: [routingAnimation],
 })
 export class SkillsComponent {
+  @HostBinding('@routingAnimation') public routing: any;
+
   json!: SkillsModel[];
 
   title: string = '';
