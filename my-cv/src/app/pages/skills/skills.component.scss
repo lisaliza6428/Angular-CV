@@ -4,9 +4,7 @@
 .title {
   margin: 0 0 20px 0;
 }
-.section {
-  position: relative;
-}
+
 .lists {
   display: flex;
   justify-content: center;
@@ -59,4 +57,18 @@
       transform: scale(1.1);
     }
   }
+}
+
+.certificates {
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+  row-gap: 15px;
+  column-gap: 15px;
+  flex-wrap: wrap;
+  @media (max-width: 520px){
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
 }

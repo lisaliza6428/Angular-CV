@@ -24,8 +24,11 @@ a {
   &:hover {
     color: #0386ea;
     .contacts__img {
-
       filter: brightness(0) saturate(100%) invert(43%) sepia(74%) saturate(4465%) hue-rotate(187deg) brightness(98%) contrast(98%);
+    }
+    .contacts__img.linkedin{
+      filter: brightness(0) saturate(100%) invert(96%) sepia(0%) saturate(18%) hue-rotate(336deg) brightness(105%) contrast(104%);
+
     }
 
   }

@@ -43,7 +43,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient],
       },
-      defaultLanguage: 'en',
+      defaultLanguage: 'ru',
     }),
   ],
   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],

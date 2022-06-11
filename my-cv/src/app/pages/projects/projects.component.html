@@ -5,40 +5,6 @@
     <div class="wrapper">
       <div class="inner__left">
         <a
-          class="project__image project__image--museum"
-          target="_blank"
-          href="https://lisaliza6428-louvre-museum.netlify.app/"
-        ></a>
-      </div>
-      <div class="inner__right">
-        <h3 class="project__title">{{ 'projects.museum.title' | translate }}</h3>
-        <div class="project__stack">{{ 'projects.museum.stack' | translate }}</div>
-
-        <div class="project__description">
-          <span>{{ 'projects.museum.descr1.part1' | translate }}</span>
-          <a class="louvre-link" target="_blank" href="https://www.louvre.fr/en">
-            {{ 'projects.museum.descr1.part2' | translate }}
-          </a>
-          <span>{{ 'projects.museum.descr1.part3' | translate }}</span>
-        </div>
-        <div class="project__description">{{ 'projects.museum.descr2' | translate }}</div>
-        <div class="project__description">{{ 'projects.museum.descr3' | translate }}</div>
-        <div class="link-wrapper">
-          <a class="project__link" target="_blank" href="https://lisaliza6428-louvre-museum.netlify.app/">
-            {{ 'projects.buttonDeploy' | translate }}</a
-          >
-          <a class="project__link" target="_blank" href="https://github.com/lisaliza6428/Museum/tree/develop">{{
-            'projects.buttonCode' | translate
-          }}</a>
-        </div>
-      </div>
-    </div>
-
-    <hr class="line" />
-
-    <div class="wrapper">
-      <div class="inner__left">
-        <a
           class="project__image project__image--artquiz"
           target="_blank"
           href="https://artquiz-angular-lisaliza6428.netlify.app/"
@@ -64,6 +30,35 @@
         </div>
       </div>
     </div>
+
+    <hr class="line" />
+
+    <div class="wrapper">
+      <div class="inner__left">
+        <a
+          class="project__image project__image--museum"
+          target="_blank"
+          href="https://lisaliza6428-louvre-museum.netlify.app/"
+        ></a>
+      </div>
+      <div class="inner__right">
+        <h3 class="project__title">{{ 'projects.museum.title' | translate }}</h3>
+        <div class="project__stack">{{ 'projects.museum.stack' | translate }}</div>
+
+        <div class="project__description" innerHtml="{{ 'projects.museum.descr1' | translate }}"></div>
+        <div class="project__description" innerHtml="{{ 'projects.museum.descr2' | translate }}"></div>
+        <div class="project__description">{{ 'projects.museum.descr3' | translate }}</div>
+        <div class="link-wrapper">
+          <a class="project__link" target="_blank" href="https://lisaliza6428-louvre-museum.netlify.app/">
+            {{ 'projects.buttonDeploy' | translate }}</a
+          >
+          <a class="project__link" target="_blank" href="https://github.com/lisaliza6428/Museum/tree/develop">{{
+            'projects.buttonCode' | translate
+          }}</a>
+        </div>
+      </div>
+    </div>
+
     <hr class="line" />
 
     <div class="wrapper">

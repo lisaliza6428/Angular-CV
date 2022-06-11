@@ -94,3 +94,20 @@ a {
 .loaded .preloader {
   display: none;
 }
+
+
+.codewars {
+  vertical-align: middle;
+  display: inline;
+}
+
+.codewars-link {
+  color: #0386ea;
+}
+a {
+  color: #0386ea;
+  text-decoration: underline;
+  &:visited {
+    color: grey;
+  }
+}

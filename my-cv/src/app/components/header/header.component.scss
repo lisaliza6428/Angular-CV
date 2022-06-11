@@ -65,7 +65,7 @@ width: 200px;
     }
     * {
       width: 30px;
-      margin-right: 10px;
+      margin: 0 5px;
       filter: brightness(0) saturate(100%);
       &:hover {
         filter: brightness(0) saturate(100%) invert(43%) sepia(74%) saturate(4465%) hue-rotate(187deg) brightness(98%)
