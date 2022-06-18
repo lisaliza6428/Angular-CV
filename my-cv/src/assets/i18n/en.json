@@ -17,7 +17,8 @@
       "text3": "The turning point in the decision to change professional activity was my moving. I left logistics in Minsk, and in St. Petersburg I joined a frontend course of Rolling Scopes School, devoting all my time to learning.",
       "text4":"There I found an amazing community of motivated and inspired people as I am. Together we coped with a wide variety of tasks, met deadlines every week, learned what a team development is and how Git is necessary and helpful in it. Also there I fell in love with <a class='codewars-link' href='https://www.codewars.com/users/lisaliza6428' target='_blank'> Codewars.com</a>, where, by the way, I have 4 kyu ;) <a class='codewars' target='_blank' href='https://www.codewars.com/users/lisaliza6428'><img class='codewars-img' src='https://www.codewars.com/users/lisaliza6428/badges/micro' alt=''/></a>",
       "text5": "Most of all in the web development I am inspired by the unlimited ability to create cool things of any complexity with just one laptop and immediately see the result of my actions. It's hard for me to say what I like the most – coding or layout design. A 50/50 ratio would be perfect for me.",
-      "text6":"I dream of becoming a part of a project and team, upgrade my skills and grow into more competent developer."
+      "text6":"I'm writing in Angular now, but I'm ready to learn any other framework or library.",
+      "text7":"I dream of becoming a part of a project and team, upgrade my skills and grow into more competent developer."
     },
     "download": {
       "title": "Download CV (PDF)",
@@ -44,7 +45,7 @@
         "list": {
           "item1": "HTTP, REST API",
           "item2": "WebStorage",
-          "item3": "Event Loop",
+          "item3": "Event loop",
           "item4": "Algorithms",
           "item5": "Data structures",
           "item6": "OOP",

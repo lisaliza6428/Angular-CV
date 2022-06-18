@@ -16,7 +16,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
-
   }
 }
 a {
@@ -95,7 +94,6 @@ a {
   display: none;
 }
 
-
 .codewars {
   vertical-align: middle;
   display: inline;
@@ -104,10 +102,11 @@ a {
 .codewars-link {
   color: #0386ea;
 }
+
 a {
   color: #0386ea;
   text-decoration: underline;
   &:visited {
-    color: grey;
+    color: #0386ea;
   }
 }
