@@ -1,4 +1,4 @@
-<div class="navig">
+<div class="navigation">
   <div class="container">
     <nav class="nav">
       <ul class="nav__list">
@@ -9,7 +9,11 @@
         </li>
       </ul>
       <div class="lang-control">
-        <app-lang-checkbox></app-lang-checkbox>
+        <select class="lang-select" (change)="checkLang($event)">
+          <option value="en">ENG</option>
+          <option value="ru" selected>RUS</option>
+          <option value="be">BEL</option>
+        </select>
       </div>
     </nav>
   </div>

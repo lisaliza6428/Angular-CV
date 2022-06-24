@@ -34,4 +34,22 @@ export class NavComponent implements OnInit {
   onSelectItem(item: string): void {
     this.activeLink = item;
   }
+
+  checkLang(e: Event) {
+    const lang = (<HTMLSelectElement>e.target).value;
+    switch (lang) {
+      case 'en': {
+        this.translate.use('en');
+        break;
+      }
+      case 'be': {
+        this.translate.use('be');
+        break;
+      }
+      case 'ru': {
+        this.translate.use('ru');
+        break;
+      }
+    }
+  }
 }

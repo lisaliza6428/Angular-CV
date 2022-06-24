@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NavComponent } from './components/nav/nav.component';
-import { LangCheckboxComponent } from './components/lang-checkbox/lang-checkbox.component';
 import { AboutComponent } from './pages/about/about.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
@@ -25,7 +24,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     HeaderComponent,
     NavComponent,
-    LangCheckboxComponent,
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,

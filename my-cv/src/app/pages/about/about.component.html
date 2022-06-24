@@ -3,20 +3,17 @@
     <h2 class="title">{{ 'about.pageTitle' | translate }}</h2>
     <p class="text">{{ 'about.content.text1' | translate }}</p>
     <p class="text">{{ 'about.content.text2' | translate }}</p>
-    <p class="text">{{ 'about.content.text3' | translate }}</p>
+    <p class="text" innerHtml="{{ 'about.content.text3' | translate }}"></p>
     <p class="text" innerHtml="{{ 'about.content.text4' | translate }}"></p>
     <p class="text">{{ 'about.content.text5' | translate }}</p>
     <p class="text">{{ 'about.content.text6' | translate }}</p>
     <p class="text">{{ 'about.content.text7' | translate }}</p>
   </div>
 
-  <div class="download-block">
-    <p class="download-text">{{ 'about.download.title' | translate }}</p>
-    <a class="download" href="../../assets/cv-pdf/Elizaveta-Ivanushenko-CV-en.pdf" download="">{{
-      'about.download.en' | translate
-    }}</a>
-    <a class="download" href="../../assets/cv-pdf/Elizaveta-Ivanushenko-CV-ru.pdf" download="">{{
-      'about.download.ru' | translate
-    }}</a>
+  <div class="download">
+    <p class="download__text">{{ 'about.download' | translate }}</p>
+    <a class="download__link" href="../../assets/cv-pdf/Elizaveta-Ivanushenko-CV-en.pdf" download="">ENG</a>
+    <a class="download__link" href="../../assets/cv-pdf/Elizaveta-Ivanushenko-CV-ru.pdf" download="">RUS</a>
+    <a class="download__link" href="../../assets/cv-pdf/Elizaveta-Ivanushenko-CV-be.pdf" download="">BEL</a>
   </div>
 </div>

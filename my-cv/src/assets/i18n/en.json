@@ -13,18 +13,14 @@
     "pageTitle": "About",
     "content": {
       "text1": "I’m a switcher and I’m looking for my first job as a frontend developer. ",
-      "text2": "Previously I dealt with delivery and customs clearance issues in a small trading company. One day I realized that  was spending too much time on one repetitive work task, and decided to optimize it.  With  some  knowledge  from  the  university  computer  science  course  in in half  with stackoverflow, I created my own solution for calculating of customer order parameters. There were some flaws and bugs in it, but despite that, how it saved me time! Since then, I have been constantly haunted by the question of what I actually want to do in life.",
-      "text3": "The turning point in the decision to change professional activity was my moving. I left logistics in Minsk, and in St. Petersburg I joined a frontend course of Rolling Scopes School, devoting all my time to learning.",
+      "text2": "Previously I dealt with delivery and customs clearance issues in a small trading company. One day I realized that  was spending too much time on one repetitive work task and decided to optimize it.  With  some  knowledge  from  the  university  computer  science  course  in half  with stackoverflow I created my own solution for calculating of customer order parameters. There were some flaws and bugs in it, but despite that, how it saved me time! Since then I have been constantly haunted by the question of what I actually want to do in life.",
+      "text3": "The turning point in the decision to change professional activity was my moving from Minsk to  St. Petersburg. I joined a frontend course of community <a href='https://rs.school/' class='link' target='_blank'>Rolling Scopes School</a>, devoting all my time to learning.",
       "text4":"There I found an amazing community of motivated and inspired people as I am. Together we coped with a wide variety of tasks, met deadlines every week, learned what a team development is and how Git is necessary and helpful in it. Also there I fell in love with <a class='codewars-link' href='https://www.codewars.com/users/lisaliza6428' target='_blank'> Codewars.com</a>, where, by the way, I have 4 kyu ;) <a class='codewars' target='_blank' href='https://www.codewars.com/users/lisaliza6428'><img class='codewars-img' src='https://www.codewars.com/users/lisaliza6428/badges/micro' alt=''/></a>",
       "text5": "Most of all in the web development I am inspired by the unlimited ability to create cool things of any complexity with just one laptop and immediately see the result of my actions. It's hard for me to say what I like the most – coding or layout design. A 50/50 ratio would be perfect for me.",
-      "text6":"I'm writing in Angular now, but I'm ready to learn any other framework or library.",
+      "text6":"I code in Angular, but I'm ready to learn any other framework or library.",
       "text7":"I dream of becoming a part of a project and team, upgrade my skills and grow into more competent developer."
     },
-    "download": {
-      "title": "Download CV (PDF)",
-      "en": "in English",
-      "ru": "in Russian"
-    }
+    "download": "Download CV (PDF)"
   },
   "skills": {
     "pageTitle": "Skills:",
@@ -51,8 +47,7 @@
           "item6": "OOP",
           "item7": "Semantic markup",
           "item8": "BEM",
-          "item9": "Adaptive markup",
-          "item10": "Responsive markup"
+          "item9": "Adaptive markup"
         }
       },
       "tools":{
@@ -69,8 +64,9 @@
       "langs":{
         "title": "Languages",
         "list": {
-          "item1": "Russian - Native",
-          "item2": "English - B1)"
+          "item1": "Russian",
+          "item2": "Belarusian",
+          "item3": "English - B1"
         }
       }
     }
