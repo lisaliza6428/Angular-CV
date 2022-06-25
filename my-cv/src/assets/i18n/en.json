@@ -92,7 +92,7 @@
       "title": "This CV-page",
       "stack": "Stack: Angular",
       "descr1": "This is my first application created with Angular.",
-      "descr2": "Here I implemented routing and localization in two languages using ngx-translate.",
+      "descr2": "Here I implemented routing and localization in 3 languages using ngx-translate.",
       "descr3": "The app is adaptive for screens from 1920px to 320px."
     },
     "buttonDeploy": "Deploy",
