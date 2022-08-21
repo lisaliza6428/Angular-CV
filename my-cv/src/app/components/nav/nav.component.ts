@@ -1,28 +1,43 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { LocationStrategy } from '@angular/common';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.scss'],
 })
-export class NavComponent implements OnInit {
-  activeLink: string = '';
+export class NavComponent implements OnInit, OnDestroy {
+  public activeLink: string;
 
-  links: string[] = [];
+  public links: string[];
 
-  linksTitle: string[] = [];
+  public linksTitle: string[];
 
-  constructor(public router: Router, public translate: TranslateService, public locationStr: LocationStrategy) {
-    this.translate.stream('nav').subscribe((data: any) => {
-      this.links = Object.keys(data);
-      this.linksTitle = Object.values(data);
-    });
+  private subscription: Subscription;
+
+  constructor(private router: Router, private translate: TranslateService, private locationStr: LocationStrategy) {
+    this.activeLink = '';
+    this.links = [];
+    this.linksTitle = [];
+    this.subscription = Subscription.EMPTY;
   }
 
   ngOnInit(): void {
+    this.subscription = this.translate.stream('nav').subscribe((data: string[]) => {
+      this.links = Object.keys(data);
+      this.linksTitle = Object.values(data);
+    });
+    this.switchLocationPath();
+  }
+
+  ngOnDestroy(): void {
+    this.subscription.unsubscribe();
+  }
+
+  private switchLocationPath() {
     const path = this.locationStr.path().slice(1);
     if (path === '') {
       this.activeLink = 'about';
@@ -31,11 +46,11 @@ export class NavComponent implements OnInit {
     }
   }
 
-  onSelectItem(item: string): void {
+  public selectLinkItem(item: string): void {
     this.activeLink = item;
   }
 
-  checkLang(e: Event) {
+  public switchLang(e: Event): void {
     const lang = (<HTMLSelectElement>e.target).value;
     switch (lang) {
       case 'en': {

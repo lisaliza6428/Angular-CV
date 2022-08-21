@@ -1,6 +1,8 @@
-import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding, OnDestroy, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { Subscription } from 'rxjs';
 import { routingAnimation } from '../../routing-animation';
+
 interface SkillsModel {
   title: string;
   list: {
@@ -14,19 +16,31 @@ interface SkillsModel {
   styleUrls: ['./skills.component.scss'],
   animations: [routingAnimation],
 })
-export class SkillsComponent {
-  @HostBinding('@routingAnimation') public routing: any;
+export class SkillsComponent implements OnInit, OnDestroy {
+  @HostBinding('@routingAnimation') routing = true;
 
-  json!: SkillsModel[];
+  public json: SkillsModel[];
 
-  title: string = '';
+  public title: string;
+
+  private subscription: Subscription;
 
   objectValues = Object.values;
 
   constructor(public translate: TranslateService) {
-    this.translate.stream('skills').subscribe((data) => {
+    this.json = [];
+    this.title = '';
+    this.subscription = Subscription.EMPTY;
+  }
+
+  ngOnInit() {
+    this.subscription = this.translate.stream('skills').subscribe((data) => {
       this.json = Object.values(data.skills);
       this.title = data.pageTitle;
     });
+  }
+
+  ngOnDestroy(): void {
+    this.subscription.unsubscribe();
   }
 }

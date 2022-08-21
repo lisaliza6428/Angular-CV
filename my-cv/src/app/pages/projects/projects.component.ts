@@ -11,5 +11,5 @@ import { routingAnimation } from '../../routing-animation';
 export class ProjectsComponent {
   constructor(public translate: TranslateService) {}
 
-  @HostBinding('@routingAnimation') public routing: any;
+  @HostBinding('@routingAnimation') routing = true;
 }

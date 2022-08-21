@@ -9,7 +9,7 @@ import { routingAnimation } from '../../routing-animation';
   animations: [routingAnimation],
 })
 export class AboutComponent {
-  @HostBinding('@routingAnimation') public routing: any;
+  @HostBinding('@routingAnimation') rooting = true;
 
   constructor(public translate: TranslateService) {}
 }
