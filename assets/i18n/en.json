@@ -1,0 +1,105 @@
+{
+  "header": {
+    "name": "Elizaveta Ivanushenko",
+    "position": "Frontend Developer",
+    "location": "Saint Petersburg, Russia"
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  "about": {
+    "pageTitle": "About",
+    "content": {
+      "text1": "I’m a switcher.",
+      "text2": "Previously I dealt with delivery and customs clearance issues in a small trading company. One day I realized that  was spending too much time on one repetitive work task and decided to optimize it.  With  some  knowledge  from  the  university  computer  science  course  in half  with stackoverflow I created my own solution for calculating of customer order parameters. There were some flaws and bugs in it, but despite that, how it saved me time! Since then I have been constantly haunted by the question of what I actually want to do in life.",
+      "text3": "The turning point in the decision to change professional activity was my moving from Minsk to  St. Petersburg. I joined a frontend course of community <a href='https://rs.school/' class='link' target='_blank'>Rolling Scopes School</a>, devoting all my time to learning.",
+      "text4":"There I found an amazing community of motivated and inspired people as I am. Together we coped with a wide variety of tasks, met deadlines every week, learned what a team development is and how Git is necessary and helpful in it. Also there I fell in love with <a class='codewars-link' href='https://www.codewars.com/users/lisaliza6428' target='_blank'> Codewars.com</a>, where, by the way, I have 4 kyu ;) <a class='codewars' target='_blank' href='https://www.codewars.com/users/lisaliza6428'><img class='codewars-img' src='https://www.codewars.com/users/lisaliza6428/badges/micro' alt=''/></a>",
+      "text5": "Most of all in the web development I am inspired by the unlimited ability to create cool things of any complexity with just one laptop and immediately see the result of my actions. It's hard for me to say what I like the most – coding or layout design. A 50/50 ratio would be perfect for me.",
+      "text6":"I code in Angular, but I'm ready to learn any other framework or library.",
+      "text7":"I dream of becoming a part of a project and team, upgrade my skills and grow into more competent developer."
+    },
+    "download": "Download CV (PDF)"
+  },
+  "skills": {
+    "pageTitle": "Skills:",
+    "certificates": "Certificates:",
+    "skills": {
+      "technologies":{
+        "title": "Technologies",
+        "list": {
+          "item1": "JavaScript (ES6+)",
+          "item2": "HTML",
+          "item3": "CSS/SASS",
+          "item4": "TypeScript",
+          "item5": "Angular"
+        }
+      },
+      "concepts":{
+        "title": "Concepts",
+        "list": {
+          "item1": "HTTP, REST API",
+          "item2": "WebStorage",
+          "item3": "Event loop",
+          "item4": "Algorithms",
+          "item5": "Data structures",
+          "item6": "OOP",
+          "item7": "Semantic markup",
+          "item8": "BEM",
+          "item9": "Adaptive markup"
+        }
+      },
+      "tools":{
+        "title": "Tools",
+        "list": {
+          "item1": "IDE VSCode",
+          "item2": "NPM, Webpack",
+          "item3": "Git & GitHub",
+          "item4": "DevTools",
+          "item5": "Figma",
+          "item6": "Perfect Pixel"
+        }
+      },
+      "langs":{
+        "title": "Languages",
+        "list": {
+          "item1": "Russian",
+          "item2": "Belarusian",
+          "item3": "English - B1"
+        }
+      }
+    }
+  },
+  "projects": {
+    "pageTitle": "Projects",
+    "museum": {
+      "title": "Louvre Museum",
+      "stack": "Stack: HTML, SASS, Javascript",
+      "descr1": "This is an alternative to how a site of  <a class='louvre-link' target='_blank' href='https://www.louvre.fr/en'>Louvre Museum</a> in Paris might look like.",
+      "descr2": "In this project you can see: a slider (in the Welcome section), a slider before/ after (in the Explore section), a custom video player, an art gallery with animation, a ticket cost calculator, a ticket purchase form with validation of input fields (available by pressing the \"Buy Now\" button in the Tickets section), section with the parallax-effect, interactive map (implemented using <a class='mapbox-link' target='_blank' href='https://www.mapbox.com/'>Mapbox.com</a>).",
+      "descr3": "The site is adaptive for screens from 1920px to 320px."
+    },
+    "artquiz": {
+      "title": "ArtQuiz",
+      "stack": "Stack: Angular, TypeScript",
+      "descr1": "ArtQuiz is a game with two modes of play: guess an artist or guess a painting. After the end of the game round the results page becomes available to you. The game progress is saved in the LocalStorage of the browser.",
+      "descr2": "There is also a settings page where you can turn on/off  the time game, change the volume of sounds or clear your game progress.",
+      "descr3": "Gallery page is created using ngx-pagination. Here you can explore masterpieces sorting them in the way you need.",
+      "descr4": "The app is adaptive for screens from 1920px to 320px."
+    },
+    "cv": {
+      "title": "This CV-page",
+      "stack": "Stack: Angular",
+      "descr1": "This is my first application created with Angular.",
+      "descr2": "Here I implemented routing and localization in 3 languages using ngx-translate.",
+      "descr3": "The app is adaptive for screens from 1920px to 320px."
+    },
+    "buttonDeploy": "Deploy",
+    "buttonCode": "Code"
+  },
+  "errorPage": {
+    "text": "Something went wrong!",
+    "link": "Go to the main page"
+  }
+}
